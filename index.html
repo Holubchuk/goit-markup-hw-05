@@ -180,7 +180,8 @@
                     <a href="#" class="team-icon-link">
                       <svg class="team-svg" width="16" height="16">
                         <use
-                          href="./images/icons.svg#icon-instagram"></use></svg></a>
+                          href="./images/icons.svg#icon-instagram"
+                        ></use></svg></a>
                   </li>
                   <li class="team-icon-item">
                     <a href="#" class="team-icon-link">
@@ -216,7 +217,8 @@
                     <a href="#" class="team-icon-link">
                       <svg class="team-svg" width="16" height="16">
                         <use
-                          href="./images/icons.svg#icon-instagram"></use></svg></a>
+                          href="./images/icons.svg#icon-instagram"
+                        ></use></svg></a>
                   </li>
                   <li class="team-icon-item">
                     <a href="#" class="team-icon-link">
@@ -252,7 +254,8 @@
                     <a href="#" class="team-icon-link">
                       <svg class="team-svg" width="16" height="16">
                         <use
-                          href="./images/icons.svg#icon-instagram"></use></svg></a>
+                          href="./images/icons.svg#icon-instagram"
+                        ></use></svg></a>
                   </li>
                   <li class="team-icon-item">
                     <a href="#" class="team-icon-link">
@@ -288,7 +291,8 @@
                     <a href="#" class="team-icon-link">
                       <svg class="team-svg" width="16" height="16">
                         <use
-                          href="./images/icons.svg#icon-instagram"></use></svg></a>
+                          href="./images/icons.svg#icon-instagram"
+                        ></use></svg></a>
                   </li>
                   <li class="team-icon-item">
                     <a href="#" class="team-icon-link">
@@ -367,29 +371,46 @@
           <ul class="social-list list">
             <li class="social-item">
               <a href="#" class="social-link-svg">
-              <svg class="social-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg></a>
+                <svg class="social-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use></svg></a>
             </li>
             <li class="social-item">
               <a href="#" class="social-link-svg">
-              <svg class="social-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg></a>
+                <svg class="social-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use></svg></a>
             </li>
             <li class="social-item">
               <a href="#" class="social-link-svg">
-              <svg class="social-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg></a>
+                <svg class="social-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use></svg></a>
             </li>
             <li class="social-item">
               <a href="#" class="social-link-svg">
-              <svg class="social-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg></a>
+                <svg class="social-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use></svg></a>
             </li>
           </ul>
+        </div>
+        <div class="subscribe">
+          <form class="subscribe-form" autocomplete="off" novalidate>
+            <label class="subscribe-label">
+              <span class="label-text">Subscribe</span>
+              <input
+                class="subscribe-input"
+                type="email"
+                name="subscribe"
+                placeholder="E-mail"
+              />
+            </label>
+            <div class="div-subscribe-button">
+              <button class="subscribe-button" type="button">
+                Subscribe
+                <svg class="subscribe-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-subscribe"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
@@ -401,9 +422,45 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <form class="form" name="modal-form" autocomplete="off" novalidate>
+          <p class="form-head">Leave your contacts and we will call you back</p>
+          <label class="form-label">
+            Name
+            <input class="form-input" type="text" name="name" />
+          </label>
+          <label class="form-label">
+            Phone
+            <input class="form-input" type="tel" name="phone" />
+          </label>
+          <label class="form-label">
+            Email
+            <input class="form-input" type="email" name="email" />
+          </label>
+          <label class="form-label">
+            Comment
+            <textarea
+              class="form-input comment"
+              name="comment"
+              placeholder="Text input"
+            ></textarea>
+          </label>
+          <div class="checkbox">
+            <input
+              class="checkbox-input"
+              type="checkbox"
+              name="terms"
+              value="terms"
+              id="terms"
+            />
+            <label class="checkbox-label" for="terms"
+              >I accept the terms and conditions of the
+              <span class="span-terms">Privacy Policy</span></label
+            >
+          </div>
 
+          <button type="submit" class="form-button">Send</button>
+        </form>
       </div>
-      
     </div>
     <script src="./js/modal.js"></script>
   </body>
