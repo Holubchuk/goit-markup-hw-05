@@ -468,7 +468,7 @@ address {
   margin-right: 24px;
 }
 .subscribe-input::placeholder {
-  color: var(--white, #fff);
+  color: #fff;
   font-size: 12px;
   font-weight: 400;
   line-height: 2;
@@ -491,7 +491,13 @@ address {
   display: flex;
   gap: 16px;
   margin: 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: var(--hover-color);
+}
+
 .subscribe-svg {
   fill: #fff;
 }
@@ -703,6 +709,9 @@ address {
 .form-input:focus,
 .form-input:active {
   border-color: var(--brand-color);
+}
+.span-modal {
+  margin-bottom: 4px;
 }
 
 .comment {
