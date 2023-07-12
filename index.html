@@ -432,37 +432,45 @@
           </div>
         </div>
         <div class="container-input">
-          <label class="form-label">
-            <span class="span-modal">Phone</span>
-            <input class="form-input" type="tel" name="phone" />
-          </label>
+          <label class="form-label" for="user-phone">Phone</label>
+          <div class="container-input-svg">
+            <input class="form-input" type="tel" name="user-phone" id="user-phone" />
+            <svg class="modal-svg" width="18" height="24">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </div>
         </div>
         <div class="container-input">
-          <label class="form-label">
-            <span class="span-modal">Email</span>
-            <input class="form-input" type="email" name="email" />
-          </label>
+          <label class="form-label" for="user-email">Email</label>
+          <div class="container-input-svg">
+            <input class="form-input" type="email" name="email" id="user-email"/>
+            <svg class="modal-svg" width="18" height="24">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
+          </div>
         </div>
-        <div class="container-input">
-          <label class="form-label">
-            <span class="span-modal">Comment</span>
+        <div class="container-input-comment">
+          <label class="form-label" for="user-comment">Comment</label>
             <textarea
-              class="form-input comment"
-              name="comment"
+              class="comment"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
-          </label>
         </div>
           <div class="checkbox">
             <input
-              class="checkbox-input"
+              class="visually-hidden"
               type="checkbox"
-              name="terms"
-              value="terms"
-              id="terms"
+              name="user-privacy"
+              value="true"
+              id="user-privacy"
             />
-            <label class="checkbox-label" for="terms"
-              >I accept the terms and conditions of the
+            <label class="checkbox-label" for="terms" id="user-privacy"
+              >
+              
+              
+              I accept the terms and conditions of the
               <span class="span-terms">Privacy Policy</span></label
             >
           </div>
