@@ -762,7 +762,7 @@ address {
     align-items: center;
     fill: transparent;
 }
-input[type="checkbox"]:checked + .span-terms {
+.checkbox-input:checked + .checkbox-label> .span-terms {
   background-color: var(--hover-color);
   border: none;
   fill: var(--studio-color-footer);
