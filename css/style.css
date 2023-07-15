@@ -762,6 +762,7 @@ address {
     justify-content: center;
     align-items: center;
     fill: transparent;
+    margin-right: 8px;
 }
 .checkbox-input:checked + .checkbox-label> .span-terms {
   background-color: var(--hover-color);
